@@ -102,6 +102,9 @@ color: #1aff00;
 .text-2{
     font-size: 30px;
 }
+.py-2{
+    padding:50px;
+}
 .card{
     width: 30%;
  padding: 50px;
@@ -118,4 +121,21 @@ color: #1aff00;
     font-size: 20px;
     width: 20%;
 
+}
+.location{
+    color: #1aff00;
+}
+.fa{
+
+    width: 70px;
+    font-size: 90px;
+
+}
+.title-md{
+    font-size: 20px;
+    color: black;
+}
+.text-md{
+    font-size: 20px;
+    color: greenyellow;
 }
