@@ -55,6 +55,10 @@ li{
     background-color: #1aff00;
     color: black;
     border: none;
+    &:hover{
+        background-color: #00ff9d;
+        color: white;
+    }
 }
 .text{
     width: 200px;
@@ -94,6 +98,10 @@ color: #1aff00;
     background-color: #1aff00;
     color: white;
     border: none;
+    &:hover{
+        background-color: #00ff9d;
+        color: white;
+    }
 
 }
 .radius-4x {
@@ -135,7 +143,11 @@ color: #1aff00;
     font-size: 20px;
     color: black;
 }
-.text-md{
+.text-md {
     font-size: 20px;
     color: greenyellow;
+}
+.form-input {
+
+    width: 100%;
 }
