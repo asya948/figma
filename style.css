@@ -22,6 +22,8 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
 
+
+
 }
 .text-field{
     width: 50%;
@@ -61,13 +63,59 @@ li{
 .my-2{
     padding: 10px;
 }
-.img-fluid{
+.my-3{
+    padding: 50px;
+}
+.img-fluid {
     width: 50%;
+
 }
 .title{
-    font-size: 50px;
+    font-size: 70px;
+}
+.bg-secondary{
+    color: rgba(26, 255, 0, 0.48);
+    font-size: 40px;
+}
+.bg-border{
+    border:1px solid rgba(26, 255, 0, 0.48);
 }
 .bg-primary{
 color: #1aff00;
     text-transform: uppercase;
+}
+
+.j-between{
+    justify-content: space-between;
+}
+.btn-2{
+    width: 150px;
+    height: 50px;
+    background-color: #1aff00;
+    color: white;
+    border: none;
+
+}
+.radius-4x {
+    border-radius: 10px;
+}
+.text-2{
+    font-size: 30px;
+}
+.card{
+    width: 30%;
+ padding: 50px;
+    align-items: center;
+    justify-content: center;
+    img{
+        width: 100%;
+
+    }
+
+}
+.fa-calendar{
+
+    font-size: 20px;
+    width: 20%;
+
 }
