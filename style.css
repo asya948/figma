@@ -27,6 +27,7 @@ body{
 }
 .text-field{
     width: 50%;
+    align-self: center;
 }
 .logo{
     width: 20%;
@@ -71,7 +72,10 @@ li{
     padding: 50px;
 }
 .img-fluid {
-    width: 50%;
+
+    width: 30%;
+    margin-top:50px;
+    margin: auto;
 
 }
 .title{
@@ -79,7 +83,7 @@ li{
 }
 .bg-secondary{
     color: rgba(26, 255, 0, 0.48);
-    font-size: 40px;
+    font-size: 58px;
 }
 .bg-border{
     border:3px solid rgba(26, 255, 0, 0.48);
@@ -108,7 +112,7 @@ color: #1aff00;
     border-radius: 10px;
 }
 .text-2{
-    font-size: 30px;
+    font-size: 50px;
 }
 .py-2{
     padding:50px;
@@ -150,8 +154,25 @@ color: #1aff00;
 .form-input {
 margin: auto;
     display: block;
-    width: 100px;
+    width: 30%
 }
 .checkbox{
     width: 50px;
+    display: flex;
+}
+.icon{
+   width: 50px;
+}
+input{
+    width: 100%;
+}
+.text-small{
+    font-size: 15px;
+    color:black;
+}
+.align-center{
+    text-align: center;
+}
+.mt{
+    margin-top: 20px;
 }
