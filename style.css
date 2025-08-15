@@ -25,9 +25,12 @@ body{
 
 
 }
+.mt-2{
+    margin-top: 30%;
+}
 .text-field{
-    width: 50%;
-    align-self: center;
+    width: 500px;
+
 }
 .logo{
     width: 20%;
@@ -73,9 +76,10 @@ li{
 }
 .img-fluid {
 
-    width: 30%;
-    margin-top:50px;
-    margin: auto;
+  width: 40%;
+    margin-top: 50px;
+    object-fit: contain;
+
 
 }
 .title{
@@ -91,6 +95,7 @@ li{
 .bg-primary{
 color: #1aff00;
     text-transform: uppercase;
+  text-decoration: underline;
 }
 
 .j-between{
@@ -123,7 +128,7 @@ color: #1aff00;
     align-items: center;
     justify-content: center;
     img{
-        width: 100%;
+        width: 55%;
 
     }
 
@@ -136,6 +141,8 @@ color: #1aff00;
 }
 .location{
     color: #1aff00;
+    display: flex;
+
 }
 .fa{
 
@@ -152,20 +159,23 @@ color: #1aff00;
     color: greenyellow;
 }
 .form-input {
-margin: auto;
+   margin: auto;
     display: block;
-    width: 30%
+    width: 30%;
+
+    input{
+        width: 100%;
+
+    }
+
 }
 .checkbox{
     width: 50px;
-    display: flex;
+
 }
-.icon{
-   width: 50px;
-}
-input{
-    width: 100%;
-}
+
+
+
 .text-small{
     font-size: 15px;
     color:black;
@@ -175,4 +185,9 @@ input{
 }
 .mt{
     margin-top: 20px;
+}
+.title-2{
+    font-size: 25px;
+    color: #1aff00;
+
 }

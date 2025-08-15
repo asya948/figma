@@ -1,36 +1,16 @@
 @media only screen and(max-width: 500px) {
-    .container {
-
-        .row {
-            flex-wrap: wrap;
-            justify-content: space-between;
+    .container{
+        .text-field {
+            width: 100%;
+            align-self: center;
         }
     }
+
 }
-@media only screen and(max-width: 300px) {
-    .container {
-
-        .row {
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
-        .img-fluid{
-            width: 100%;
-
-        }
-    }}
-@media only screen and(max-width: 100px) {
-    .container {
-
-        .row {
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
+@media only screen and(max-width: 500px) {
         .img-fluid{
             width: 100%;
 
         }
     }
 
-
-}
