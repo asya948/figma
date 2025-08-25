@@ -5,7 +5,7 @@
 
 **A responsive and clean web page built entirely with pure CSS.**
 
-[**➥ Live Demo**](https://github.com/asya948)
+[**➥ Live Demo**](https://asya948.github.io/figma/)
 
 </div>
 
